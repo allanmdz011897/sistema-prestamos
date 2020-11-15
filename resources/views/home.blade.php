@@ -4,8 +4,12 @@
     <main id="app-main" class="app-main in">
         <div class="wrap">
             <section class="app-content">
+                <title>Servicios Superiores del norte</title>
                 @if(Auth::user()->level=='agent')
+                
+
                 <div class="row">
+                    
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('client/create')}}">
                             <div class="widget stats-widget">
@@ -19,10 +23,11 @@
                         </a>
 
                     </div>
+
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('client')}}">
                         <div class="widget stats-widget">
-                            <div class="widget-body clearfix bg-primary">
+                            <div class="widget-body clearfix bg-success">
                                 <div class="pull-left">
                                     <h3 class="widget-title text-white">Mostrar clientes</h3>
                                 </div>
@@ -35,9 +40,9 @@
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('simulator')}}">
                             <div class="widget stats-widget">
-                                <div class="widget-body clearfix bg-purple">
+                                <div class="widget-body clearfix bg-info">
                                     <div class="pull-left">
-                                        <h3 class="widget-title text-white">Simulador</h3>
+                                        <h3 class="widget-title text-white">Calculadora Intereses</h3>
                                     </div>
                                     <span class="pull-right big-icon watermark"><i class="fa fa-calculator"></i></span>
                                 </div>
@@ -48,7 +53,7 @@
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('payment')}}">
                             <div class="widget stats-widget">
-                                <div class="widget-body clearfix bg-success">
+                                <div class="widget-body clearfix bg-warning">
                                     <div class="pull-left">
                                         <h3 class="widget-title text-white">Registrar pago</h3>
                                     </div>
@@ -63,9 +68,9 @@
                             <div class="widget stats-widget">
                                 <div class="widget-body clearfix bg-deepOrange">
                                     <div class="pull-left">
-                                        <h3 class="widget-title text-white">Iniciar Ruta</h3>
+                                        <h3 class="widget-title text-white">Rastreo clientes</h3>
                                     </div>
-                                    <span class="pull-right big-icon watermark"><i class="fa fa-car"></i></span>
+                                    <span class="pull-right big-icon watermark"><i class="fa fa-th-list"></i></span>
                                 </div>
                             </div><!-- .widget -->
                         </a>
@@ -76,7 +81,7 @@
                             <div class="widget stats-widget">
                                 <div class="widget-body clearfix bg-danger">
                                     <div class="pull-left">
-                                        <h3 class="widget-title text-white">Historia cierre</h3>
+                                        <h3 class="widget-title text-white">Historial de cierre</h3>
                                     </div>
                                     <span class="pull-right big-icon watermark"><i class="fa fa-lock"></i></span>
                                 </div>
@@ -86,9 +91,9 @@
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('transaction')}}">
                             <div class="widget stats-widget">
-                                <div class="widget-body clearfix bg-inverse">
+                                <div class="widget-body clearfix bg-danger">
                                     <div class="pull-left">
-                                        <h3 class="widget-title text-white">Transacciones</h3>
+                                        <h3 class="widget-title text-white">Transacciones(Movimientos)</h3>
                                     </div>
                                     <span class="pull-right big-icon watermark"><i class="fa fa-list-ol"></i></span>
                                 </div>
@@ -99,7 +104,7 @@
                     <div class="col-md-3 col-sm-6">
                         <a href="{{url('bill')}}">
                             <div class="widget stats-widget">
-                                <div class="widget-body clearfix bg-pink">
+                                <div class="widget-body clearfix bg-success">
                                     <div class="pull-left">
                                         <h3 class="widget-title text-white">Gastos</h3>
                                     </div>
@@ -182,7 +187,7 @@
                             <div class="widget stats-widget">
                                 <div class="widget-body clearfix bg-danger">
                                     <div class="pull-left">
-                                        <h3 class="widget-title text-white">Estadistica</h3>
+                                        <h3 class="widget-title text-white">Estadisticas</h3>
                                     </div>
                                     <span class="pull-right big-icon watermark"><i class="fa fa-line-chart"></i></span>
                                 </div>

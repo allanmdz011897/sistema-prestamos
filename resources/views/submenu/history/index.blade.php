@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="widget p-lg">
-                            <h4 class="m-b-lg">Detalles Clientes y Ventas</h4>
+                            <h4 class="m-b-lg">Detalles Clientes y Detalles de Ventas o servicios</h4>
                             <table class="table supervisor-history-table">
 
                                 <thead>
@@ -37,7 +37,7 @@
 
                                 </tbody></table>
                                 <footer class="widget-footer">
-                                    <p><b>Falta cobrar </b> <span class="text-primary">{{$total_rest}}</span> de <span class="text-success">{{$total_credit}}</span></p>
+                                    <p><b>Falta por cobrar </b> <span class="text-primary">{{$total_rest}}</span> de <span class="text-success">{{$total_credit}}</span></p>
                                 </footer>
                         </div><!-- .widget -->
                         <div class="col-lg-12 text-right">

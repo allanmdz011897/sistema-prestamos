@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="widget p-lg">
-                            <h4 class="m-b-lg">Gastos</h4>
+                            <h4 class="m-b-lg">Gastos (Proveedores)</h4>
                             <form class="form-inline" action="{{url('bill')}}" method="GET">
                                 <div class="form-group hidden">
                                     <label for="nit_number"> Fecha Inicial:</label>

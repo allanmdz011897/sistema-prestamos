@@ -16,7 +16,7 @@
                                 <form method="POST" action="{{url('bill')}}" enctype="multipart/form-data">
                                     {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label for="type_bill"> Tipo de gasto:</label>
+                                        <label for="type_bill"> :</label>
                                         <select name="type_bill" class="form-control" id="type_bill">
                                             @foreach($bills as $bill)
                                                 <option value="{{$bill->id}}">{{$bill->name}}</option>

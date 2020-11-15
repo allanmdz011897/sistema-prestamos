@@ -1,5 +1,5 @@
 body.simple-page {
-  background-color: #188ae2;
+  background-color: ##C0F1EC;
   padding-top: 8%; }
 
 .simple-page-wrap {
@@ -14,7 +14,7 @@ body.simple-page {
     color: #fff; }
 
 .simple-page-form {
-  background-color: #fff;
+  background-color: #C0F1EC;
   border-radius: 6px;
   padding: 24px;
   margin-bottom: 24px; }

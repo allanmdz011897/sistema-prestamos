@@ -12,7 +12,7 @@
                             <h4 class="m-b-lg">Consulta de Gastos</h4>
                             <form class="form-inline" method="GET" {{url('supervisor/bill')}}>
                                 <div class="form-group">
-                                    <label for="email">Feacha Inicio:</label>
+                                    <label for="email">Fecha Inicio:</label>
                                     <input type="text" class="form-control datepicker-trigger" name="date_start" id="date_start">
                                 </div>
                                 <div class="form-group">

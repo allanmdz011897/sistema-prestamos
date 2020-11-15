@@ -15,7 +15,7 @@
                                     <div class="form-group">
                                         <label for="type_bill"> Tipo de gasto:</label>
                                         <select name="type_bill" class="form-control" id="type_bill">
-                                            <option value="gasolina">Gasolina</option>
+                                            <option value="Energia">Energia</option>
                                         </select>
                                     </div>
                                     <div class="form-group">

@@ -2,6 +2,10 @@
 <main id="app-main" class="app-main">
     <div class="wrap">
         <section class="app-content">
+            <div>
+                <h3>Servicios Superiores del Norte <span class="derecha">{{now()}}</span></h3>
+            </div>
+            
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget stats-widget">
@@ -162,7 +166,7 @@
                     <li><a href="javascript:void(0)">Privacy Policy</a></li>
                     <li><a href="javascript:void(0)">Feedback <i class="fa fa-angle-up m-l-md"></i></a></li>
                 </ul>
-                <div class="copyright pull-left">Copyright RaThemes 2016 &copy;</div>
+                <div class="copyright pull-left">Copyright 2020 &copy;</div>
             </div>
         </footer>
     </div>

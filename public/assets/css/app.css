@@ -1409,7 +1409,7 @@ body.menubar-left .menubar {
     display: inline-block; } }
 
 .menubar.light {
-  background: #fff; }
+  background: rgb(184, 77, 77); }
 body.menubar-left .menubar.light {
   -webkit-box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08);
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08); }
@@ -1632,7 +1632,7 @@ body.menubar-unfold .app-menu .submenu .menu-icon + .menu-text {
     display: none; } }
 
 .app-menu a {
-  color: #6a6c6f; }
+  color: #4cecdf; }
 
 .app-menu li.open > a,
 .app-menu li.active > a,
@@ -3365,7 +3365,7 @@ only screen and (max-width: 760px),
   .agente-paymentsH-table td:nth-of-type(3):before { content: "Valor"; }
   .agente-paymentsH-table td:nth-of-type(4):before { content: "Saldo"; }
 
-  /* -Iniciar Ruta:*/
+  /* -:*/
   .agente-route-table td:nth-of-type(1):before { content: ""; }
   .agente-route-table td:nth-of-type(2):before { content: "Credito"; }
   .agente-route-table td:nth-of-type(3):before { content: "Nombres"; }
@@ -3452,7 +3452,7 @@ table.dataTable thead th, table.dataTable thead td,table.dataTable.no-footer{
 }
 input[type="search"] {
   -webkit-appearance: none !important;
-  border: solid 1px #d4d4d4 !important;
+  border: solid 10px #d4d4d4 !important;
   border-radius: 3px !important;
 }
 

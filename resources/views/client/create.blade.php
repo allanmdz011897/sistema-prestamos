@@ -16,7 +16,7 @@
                                 <form method="POST" action="{{url('client')}}" class="new-register" enctype="multipart/form-data">
                                     {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label for="nit_number">Nº Identificacion:</label>
+                                        <label for="nit_number">Nº NIT:</label>
                                         <input type="text" name="nit_number" value="{{isset($user) ? $user->nit : ''}}" class="form-control" id="nit_number" required>
                                     </div>
                                     <div class="form-group">
@@ -44,7 +44,7 @@
                                         <input type="number" step="any" min="1" name="amount" class="form-control amount-input" id="amount" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="utility">Utilidad:</label>
+                                        <label for="utility">Utilidad(Interes):</label>
                                         <select name="utility" class="form-control" id="utility">
                                             <option value="0.0">0%</option>
                                             <option value="0.05">5%</option>

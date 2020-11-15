@@ -68,7 +68,7 @@ class subReportController extends Controller
             'date_end' => $date_end,
             'id_wallet' => $id_wallet
         );
-//(base+recaudo)-(creditos+gastos)
+//(base+recaudo)-(creditos+s)
         return view('submenu.report.index',$data);
     }
 

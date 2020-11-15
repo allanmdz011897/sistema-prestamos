@@ -9,7 +9,7 @@
                     <div class="col-md-12 col-lg-8 col-lg-offset-2">
                         <div class="widget">
                             <header class="widget-header">
-                                <h4 class="widget-title">Agregar ruta</h4>
+                                <h4 class="widget-title">Agregar tipo cartera</h4>
                             </header><!-- .widget-header -->
                             <hr class="widget-separator">
                             <div class="widget-body">

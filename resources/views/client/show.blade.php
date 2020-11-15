@@ -16,7 +16,7 @@
                                 <form method="POST" action="{{url('client')}}" enctype="multipart/form-data">
                                     {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label for="nit_number">Nº Identificacion:</label>
+                                        <label for="nit_number">Nº DPI:</label>
                                         <input type="text" name="nit_number" readonly value="{{isset($user) ? $user->nit : ''}}" class="form-control" id="nit_number" required>
                                     </div>
                                     <div class="form-group">

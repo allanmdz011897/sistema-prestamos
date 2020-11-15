@@ -92,7 +92,7 @@
     </div><!-- #login-form -->
 
     <div class="simple-page-footer">
-        <p><a href="{{ route('password.request') }}">¿Olvidaste tu contraseña?</a></p>
+        <p><a>SERVICIOS SUPERIORES DEL NORTE 2020</S></a></p>
     </div><!-- .simple-page-footer -->
 
 

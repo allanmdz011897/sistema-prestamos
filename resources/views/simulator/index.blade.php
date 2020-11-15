@@ -9,7 +9,7 @@
                     <div class="col-md-12 col-lg-8 col-lg-offset-2">
                         <div class="widget">
                             <header class="widget-header">
-                                <h4 class="widget-title">Simulador</h4>
+                                <h4 class="widget-title">Calculadora de Utilidad</h4>
                             </header><!-- .widget-header -->
                             <hr class="widget-separator">
                             <div class="widget-body">

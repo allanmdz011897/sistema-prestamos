@@ -16,7 +16,7 @@
                                 <form method="POST" action="{{url('admin/user')}}" enctype="multipart/form-data">
                                     {{ csrf_field() }}
                                     <div class="form-group">
-                                        <label for="username">Username:</label>
+                                        <label for="username">Nombre de usuario:</label>
                                         <input type="text" name="username"   class="form-control" id="username" required>
                                     </div>
                                     <div class="form-group">
@@ -28,7 +28,7 @@
                                         <input type="password" name="pwd"   class="form-control" id="pwd" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="level">Nivel:</label>
+                                        <label for="level">Nivel(Agente o Supervisor)</label>
                                         <select name="level"  class="form-control" id="level">
                                             <option value="agent">Agente</option>
                                             <option value="supervisor">Supervisor</option>

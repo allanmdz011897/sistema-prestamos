@@ -27,7 +27,9 @@ Route::resource('route', 'routeController');
 Route::resource('history', 'historyController');
 Route::resource('transaction', 'transactionController');
 Route::resource('bill', 'billController');
+Route::resource('catalogue', 'CatalogueController');
 
+ /*-----Usuario supervisor----*/
 Route::prefix('supervisor')->group(function () {
     Route::resource('agent', 'agentController');
     Route::resource('close', 'closeController');
@@ -39,6 +41,7 @@ Route::prefix('supervisor')->group(function () {
     Route::resource('bill', 'billsupervisorController');
     Route::resource('credit', 'creditController');
     Route::resource('summary', 'supervisorSummaryController');
+    Route::resource('catalogue', 'CatalogueController');
 
     /*-----Sub Menu-----*/
     Route::prefix('menu')->group(function () {
@@ -50,8 +53,11 @@ Route::prefix('supervisor')->group(function () {
         Route::resource('edit', 'subEditController');
         Route::resource('report', 'subReportController');
         Route::resource('done', 'subDoneController');
+        Route::resource('catalogue', 'CatalogueController');
     });
 });
+
+/*-----Usuario Administrador----*/
 Route::prefix('admin')->group(function () {
     Route::resource('user', 'adminUserController');
     Route::resource('route', 'adminRouteController');
